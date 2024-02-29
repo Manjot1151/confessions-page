@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confessions Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Confessions Page</h1>
+    
+    <!-- Submission Form -->
+    <form id="confessionForm">
+      <textarea id="confessionText" placeholder="Enter your confession" maxlength="2000"></textarea>
+      <input type="text" id="identity" placeholder="Your identity (optional)" maxlength="20">
+      <button type="submit">Submit Confession</button>
+    </form>
+
+    <!-- Display Approved Confessions -->
+    <div id="confessionList">
+      <!-- Confessions will be dynamically added here -->
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+  <script src="server.js"></script>
+</body>
+</html>
